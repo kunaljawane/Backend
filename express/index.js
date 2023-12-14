@@ -14,3 +14,7 @@ app.use((req,res)=>{
     console.log("Request Received!!"); //show that request in received or not
     res.send('Hello Dear..welcome to backend!!');
 })
+
+app.get('/',(req,res)=>{
+    res.send("This is Home page")
+})
