@@ -1,0 +1,26 @@
+Node:
+Node js in the javascript runtime environment
+its not a language nor framerwork
+its used for server side progrmming
+ 
+vs code is made with the use of node
+
+npm init --initialize the package.json for project
+
+npm install {{package name}}  //Local installation
+
+npm install -g {{package name}}   //Global installation
+
+
+
+
+Express:
+helps for server side programming
+handle the requeest and response
+useds:
+-listen to requeest
+-parse the requeest
+-route the response
+-send the response
+
+
