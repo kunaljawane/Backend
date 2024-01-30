@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1 class="Title">Quora Post</h1>
+    <% for(post of posts){%>
+        <div class="post">
+            <h3 id="username">@<%= post.username %></h3>
+            <h4 id="post"><%= post.content %></h4>
+
+        </div>
+    <%} %>
+
+    <br>
+    <br>
+    <a id="addbutton" href="http://localhost:3000/posts/new">Add Post</a>
+    
+</body>
+</html>

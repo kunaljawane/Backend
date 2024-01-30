@@ -28,5 +28,6 @@ EJS-
 embedded javascript templetes
 allow us the generate html markups with plain JS
 
-
+REST:
+representational state transfer
 
