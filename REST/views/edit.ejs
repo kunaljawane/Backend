@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+</head>
+<body>
+    <h1>Edit Post</h1>
+    <h2>Post ID:<%= postid.id %></h2>
+    <h2>Username:@<%= postid.username %></h2>
+    <!-- <form method="post" action="/post/<%= postid.id %>?_method=PATCH">
+        <textarea rows="10" cols="35" placeholder="Add your content here"><%= postid.content %></textarea>
+        <button>Submit</button>
+    </form>
+     -->
+
+     <form method="post" action="/post/<%= postid.id %>?_method=PATCH">
+        <textarea name="content" rows="10" cols="35" placeholder="Add your content here"><%= postid.content %></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
